@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "learning_rate": 0.3,
+    "norm_type": "constant"
+  },
+  "save_output": true,
+  "json_comment": "",
+  "json_file_name": "json/svdpp-shuffled-lrate-amazon_Books-shuffled-5item",
+  "experiment_type": "SvdppExperiment",
+  "csv_comment": "comment",
+  "path": {
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Books",
+    "output_dir": "results"
+  }
+}

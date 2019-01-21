@@ -1,0 +1,18 @@
+{
+  "path": {
+    "output_dir": "results",
+    "dataset": "mlens_10m",
+    "data_dir": "data",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded"
+  },
+  "json_comment": "",
+  "json_file_name": "json/nn-mlens_10m-recoded-5item",
+  "save_output": true,
+  "experiment_type": "NearestNeighborExperiment",
+  "csv_comment": "time based, monthly retrained",
+  "parameters": {
+    "gamma": 0.09,
+    "gamma_threshold": 0.001,
+    "compute_similarity_period": 604800
+  }
+}

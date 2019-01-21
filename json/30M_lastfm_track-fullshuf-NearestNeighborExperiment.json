@@ -1,0 +1,17 @@
+{
+  "csv_comment": "default",
+  "parameters": {
+    "gamma": 0.09,
+    "gamma_threshold": 0.001
+  },
+  "experiment_type": "NearestNeighborExperiment",
+  "json_comment": "",
+  "json_file_name": "json/nn-30M_lastfm_track-shuffled-5item",
+  "path": {
+    "data_dir": "data",
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "30M_lastfm/track"
+  },
+  "save_output": true
+}

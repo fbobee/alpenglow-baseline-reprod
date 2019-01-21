@@ -1,0 +1,16 @@
+{
+  "csv_comment": "comment",
+  "json_file_name": "json/amf-negrate-amazon_Books-shuffled-5item",
+  "experiment_type": "AsymmetricFactorExperiment",
+  "json_comment": "",
+  "parameters": {
+    "negative_rate": 300
+  },
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "output_dir": "results",
+    "dataset": "amazon/Books"
+  },
+  "save_output": true
+}

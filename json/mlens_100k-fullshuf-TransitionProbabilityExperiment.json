@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "mode": "symmetric"
+  },
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "mlens_100k"
+  },
+  "save_output": true,
+  "csv_comment": "comment",
+  "json_comment": "",
+  "experiment_type": "TransitionProbabilityExperiment",
+  "json_file_name": "json/trans-mlens_100k-shuffled-5item"
+}

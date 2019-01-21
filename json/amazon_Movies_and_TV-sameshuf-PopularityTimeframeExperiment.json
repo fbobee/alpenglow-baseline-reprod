@@ -1,0 +1,16 @@
+{
+  "csv_comment": "comment",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "dataset": "amazon/Movies_and_TV",
+    "data_dir": "data"
+  },
+  "json_comment": "",
+  "parameters": {
+    "tau": 604800
+  },
+  "json_file_name": "json/poptf-amazon_Movies_and_TV-recoded-5item",
+  "experiment_type": "PopularityTimeframeExperiment",
+  "save_output": true
+}

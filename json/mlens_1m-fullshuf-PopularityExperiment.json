@@ -1,0 +1,14 @@
+{
+  "json_file_name": "json/pop-default-mlens_1m-shuffled-5item",
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "mlens_1m",
+    "output_dir": "results"
+  },
+  "csv_comment": "comment",
+  "experiment_type": "PopularityExperiment",
+  "save_output": true,
+  "parameters": {},
+  "json_comment": ""
+}

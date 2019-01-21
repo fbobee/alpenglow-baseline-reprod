@@ -1,0 +1,16 @@
+{
+  "path": {
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Books",
+    "output_dir": "results"
+  },
+  "json_comment": "",
+  "json_file_name": "json/trans-amazon_Books-shuffled-5item",
+  "parameters": {
+    "mode": "symmetric"
+  },
+  "save_output": true,
+  "csv_comment": "comment",
+  "experiment_type": "TransitionProbabilityExperiment"
+}

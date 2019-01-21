@@ -1,0 +1,16 @@
+{
+  "save_output": true,
+  "json_comment": "",
+  "json_file_name": "json/svdpp-lrate-amazon_Books-recoded-5item",
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "amazon/Books"
+  },
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "experiment_type": "SvdppExperiment",
+  "csv_comment": "comment"
+}

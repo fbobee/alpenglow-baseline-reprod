@@ -1,0 +1,14 @@
+{
+  "csv_comment": "comment",
+  "json_file_name": "json/trans-mlens_100k-recoded-5item",
+  "save_output": true,
+  "json_comment": "",
+  "experiment_type": "TransitionProbabilityExperiment",
+  "parameters": {},
+  "path": {
+    "data_dir": "data",
+    "dataset": "mlens_100k",
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded"
+  }
+}

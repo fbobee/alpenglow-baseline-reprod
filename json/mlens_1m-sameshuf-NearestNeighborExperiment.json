@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "gamma_threshold": 0.001,
+    "gamma": 0.09
+  },
+  "json_comment": "",
+  "experiment_type": "NearestNeighborExperiment",
+  "json_file_name": "json/nn-mlens_1m-recoded-5item",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_1m",
+    "output_dir": "results",
+    "data_dir": "data"
+  },
+  "save_output": true,
+  "csv_comment": "default"
+}

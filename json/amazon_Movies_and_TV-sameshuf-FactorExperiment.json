@@ -1,0 +1,16 @@
+{
+  "experiment_type": "FactorExperiment",
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Movies_and_TV"
+  },
+  "json_comment": "",
+  "json_file_name": "json/factor-lrate-amazon_Movies_and_TV-recoded-5item",
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "csv_comment": "comment",
+  "save_output": true
+}

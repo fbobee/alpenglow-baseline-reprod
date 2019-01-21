@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "experiment_type": "SvdppExperiment",
+  "save_output": true,
+  "json_file_name": "json/svdpp-lrate-amazon_CDs_and_Vinyl-recoded-5item",
+  "csv_comment": "comment",
+  "json_comment": "",
+  "path": {
+    "data_dir": "data",
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parameters": {},
+  "json_comment": "",
+  "csv_comment": "comment",
+  "path": {
+    "data_dir": "data",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Books",
+    "output_dir": "results"
+  },
+  "save_output": true,
+  "experiment_type": "PopularityExperiment",
+  "json_file_name": "json/pop-default-amazon_Books-recoded-5item"
+}

@@ -1,0 +1,17 @@
+{
+  "csv_comment": "comment",
+  "save_output": true,
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_100k",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "parameters": {
+    "learning_rate": 0.2,
+    "norm_type": "constant"
+  },
+  "json_file_name": "json/svdpp-shuffled-lrate-mlens_100k-shuffled-5item",
+  "json_comment": "",
+  "experiment_type": "SvdppExperiment"
+}

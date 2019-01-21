@@ -1,0 +1,17 @@
+{
+  "save_output": true,
+  "parameters": {
+    "gamma_threshold": 0.001,
+    "gamma": 0.09
+  },
+  "csv_comment": "time based recomputing as sample based is not implemented",
+  "json_file_name": "json/nn-fixed-amazon_Movies_and_TV-recoded-5item",
+  "experiment_type": "NearestNeighborExperiment",
+  "json_comment": "",
+  "path": {
+    "dataset": "amazon/Movies_and_TV",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data"
+  }
+}

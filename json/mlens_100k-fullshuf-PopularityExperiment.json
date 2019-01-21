@@ -1,0 +1,14 @@
+{
+  "json_comment": "",
+  "csv_comment": "comment",
+  "json_file_name": "json/pop-default-mlens_100k-shuffled-5item",
+  "parameters": {},
+  "save_output": true,
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_100k",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "experiment_type": "PopularityExperiment"
+}

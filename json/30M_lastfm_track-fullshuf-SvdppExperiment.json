@@ -1,0 +1,17 @@
+{
+  "csv_comment": "comment",
+  "experiment_type": "SvdppExperiment",
+  "json_comment": "",
+  "json_file_name": "json/svdpp-shuffled-lrate-30M_lastfm_track-shuffled-5item",
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "30M_lastfm/track"
+  },
+  "parameters": {
+    "learning_rate": 0.2,
+    "norm_type": "constant"
+  },
+  "save_output": true
+}

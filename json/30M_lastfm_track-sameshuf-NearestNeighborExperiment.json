@@ -1,0 +1,17 @@
+{
+  "path": {
+    "output_dir": "results",
+    "dataset": "30M_lastfm/track",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "json_comment": "",
+  "experiment_type": "NearestNeighborExperiment",
+  "save_output": true,
+  "json_file_name": "json/nn-30M_lastfm_track-recoded-5item",
+  "csv_comment": "default",
+  "parameters": {
+    "gamma_threshold": 0.001,
+    "gamma": 0.09
+  }
+}

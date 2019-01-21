@@ -1,0 +1,14 @@
+{
+  "save_output": true,
+  "json_file_name": "json/trans-amazon_Movies_and_TV-recoded-5item",
+  "experiment_type": "TransitionProbabilityExperiment",
+  "parameters": {},
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "amazon/Movies_and_TV"
+  },
+  "csv_comment": "comment",
+  "json_comment": ""
+}

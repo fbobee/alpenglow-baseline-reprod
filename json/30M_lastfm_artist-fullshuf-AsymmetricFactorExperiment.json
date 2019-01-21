@@ -1,0 +1,16 @@
+{
+  "json_comment": "",
+  "experiment_type": "AsymmetricFactorExperiment",
+  "csv_comment": "comment",
+  "parameters": {
+    "negative_rate": 300
+  },
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "30M_lastfm/artist"
+  },
+  "json_file_name": "json/amf-negrate-30M_lastfm_artist-shuffled-5item",
+  "save_output": true
+}

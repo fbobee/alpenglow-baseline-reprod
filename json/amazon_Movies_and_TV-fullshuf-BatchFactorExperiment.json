@@ -1,0 +1,20 @@
+{
+  "save_output": true,
+  "json_file_name": "json/batchfactor-amazon_Movies_and_TV-shuffled-5item",
+  "path": {
+    "dataset": "amazon/Movies_and_TV",
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  },
+  "parameters": {
+    "period_length": 100000,
+    "learning_rate": 0.08,
+    "number_of_iterations": 30,
+    "negative_rate": 30,
+    "period_mode": "samplenum"
+  },
+  "csv_comment": "sample based",
+  "json_comment": "",
+  "experiment_type": "BatchFactorExperiment"
+}

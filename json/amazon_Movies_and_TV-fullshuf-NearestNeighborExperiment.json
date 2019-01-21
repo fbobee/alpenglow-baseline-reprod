@@ -1,0 +1,17 @@
+{
+  "json_comment": "",
+  "save_output": true,
+  "experiment_type": "NearestNeighborExperiment",
+  "parameters": {
+    "gamma_threshold": 0.001,
+    "gamma": 0.09
+  },
+  "csv_comment": "time based recomputing as sample based is not implemented",
+  "json_file_name": "json/nn-fixed-amazon_Movies_and_TV-shuffled-5item",
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "amazon/Movies_and_TV"
+  }
+}

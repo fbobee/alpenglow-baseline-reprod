@@ -1,0 +1,16 @@
+{
+  "json_comment": "",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "dataset": "amazon/Books",
+    "data_dir": "data"
+  },
+  "csv_comment": "comment",
+  "json_file_name": "json/amf-negrate-amazon_Books-recoded-5item",
+  "experiment_type": "AsymmetricFactorExperiment",
+  "save_output": true,
+  "parameters": {
+    "negative_rate": 300
+  }
+}

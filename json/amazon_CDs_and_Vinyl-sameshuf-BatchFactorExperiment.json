@@ -1,0 +1,20 @@
+{
+  "save_output": true,
+  "parameters": {
+    "period_mode": "samplenum",
+    "period_length": 100000,
+    "learning_rate": 0.03,
+    "number_of_iterations": 30,
+    "negative_rate": 30
+  },
+  "json_file_name": "json/batchfactor-amazon_CDs_and_Vinyl-recoded-5item",
+  "experiment_type": "BatchFactorExperiment",
+  "path": {
+    "data_dir": "data",
+    "dataset": "amazon/CDs_and_Vinyl",
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded"
+  },
+  "csv_comment": "sample based",
+  "json_comment": ""
+}

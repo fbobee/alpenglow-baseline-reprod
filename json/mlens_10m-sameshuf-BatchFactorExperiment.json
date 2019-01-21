@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "negative_rate": 30,
+    "number_of_iterations": 3,
+    "period_length": 604800,
+    "learning_rate": 0.01
+  },
+  "json_file_name": "json/batchfactor-mlens_10m-recoded-5item",
+  "experiment_type": "BatchFactorExperiment",
+  "csv_comment": "time based, monthly retrained",
+  "json_comment": "",
+  "save_output": true,
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_10m",
+    "data_dir": "data"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "save_output": true,
+  "experiment_type": "FactorExperiment",
+  "json_comment": "",
+  "json_file_name": "json/factor-lrate-mlens_100k-shuffled-5item",
+  "csv_comment": "comment",
+  "parameters": {
+    "learning_rate": 0.2
+  },
+  "path": {
+    "dataset": "mlens_100k",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "output_dir": "results"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "mlens_1m",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  },
+  "parameters": {
+    "gamma_threshold": 0.001,
+    "gamma": 0.09
+  },
+  "save_output": true,
+  "experiment_type": "NearestNeighborExperiment",
+  "json_file_name": "json/nn-mlens_1m-shuffled-5item",
+  "csv_comment": "default",
+  "json_comment": ""
+}

@@ -1,0 +1,16 @@
+{
+  "csv_comment": "comment",
+  "parameters": {
+    "mode": "symmetric"
+  },
+  "json_comment": "",
+  "json_file_name": "json/trans-amazon_Electronics-shuffled-5item",
+  "experiment_type": "TransitionProbabilityExperiment",
+  "save_output": true,
+  "path": {
+    "dataset": "amazon/Electronics",
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  }
+}

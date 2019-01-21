@@ -1,0 +1,17 @@
+{
+  "path": {
+    "dataset": "amazon/Movies_and_TV",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "output_dir": "results"
+  },
+  "json_comment": "",
+  "save_output": true,
+  "experiment_type": "SvdppExperiment",
+  "parameters": {
+    "norm_type": "constant",
+    "learning_rate": 0.3
+  },
+  "json_file_name": "json/svdpp-shuffled-lrate-amazon_Movies_and_TV-shuffled-5item",
+  "csv_comment": "comment"
+}

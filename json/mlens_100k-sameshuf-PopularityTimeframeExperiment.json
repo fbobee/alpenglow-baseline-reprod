@@ -1,0 +1,16 @@
+{
+  "json_file_name": "json/poptf-mlens_100k-recoded-5item",
+  "csv_comment": "comment",
+  "path": {
+    "dataset": "mlens_100k",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data"
+  },
+  "json_comment": "",
+  "parameters": {
+    "tau": 25920000
+  },
+  "save_output": true,
+  "experiment_type": "PopularityTimeframeExperiment"
+}

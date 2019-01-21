@@ -1,0 +1,14 @@
+{
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "amazon/CDs_and_Vinyl",
+    "output_dir": "results"
+  },
+  "experiment_type": "TransitionProbabilityExperiment",
+  "json_file_name": "json/trans-amazon_CDs_and_Vinyl-recoded-5item",
+  "parameters": {},
+  "csv_comment": "comment",
+  "json_comment": "",
+  "save_output": true
+}

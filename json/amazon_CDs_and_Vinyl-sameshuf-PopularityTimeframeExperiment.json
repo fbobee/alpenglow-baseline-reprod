@@ -1,0 +1,16 @@
+{
+  "experiment_type": "PopularityTimeframeExperiment",
+  "json_comment": "",
+  "csv_comment": "comment",
+  "parameters": {
+    "tau": 604800
+  },
+  "save_output": true,
+  "json_file_name": "json/poptf-amazon_CDs_and_Vinyl-recoded-5item",
+  "path": {
+    "output_dir": "results",
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  }
+}

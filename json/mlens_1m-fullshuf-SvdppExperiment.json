@@ -1,0 +1,17 @@
+{
+  "json_file_name": "json/svdpp-shuffled-lrate-mlens_1m-shuffled-5item",
+  "experiment_type": "SvdppExperiment",
+  "path": {
+    "dataset": "mlens_1m",
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "save_output": true,
+  "json_comment": "",
+  "parameters": {
+    "norm_type": "constant",
+    "learning_rate": 0.1
+  },
+  "csv_comment": "comment"
+}

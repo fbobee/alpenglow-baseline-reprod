@@ -1,0 +1,17 @@
+{
+  "parameters": {
+    "gamma": 0.09,
+    "gamma_threshold": 0.001
+  },
+  "csv_comment": "time based recomputing as sample based is not implemented",
+  "json_file_name": "json/nn-fixed-amazon_CDs_and_Vinyl-shuffled-5item",
+  "experiment_type": "NearestNeighborExperiment",
+  "json_comment": "",
+  "save_output": true,
+  "path": {
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_dir": "data",
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  }
+}

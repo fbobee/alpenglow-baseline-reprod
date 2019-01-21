@@ -1,0 +1,19 @@
+{
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "30M_lastfm/artist",
+    "data_dir": "data"
+  },
+  "json_comment": "",
+  "experiment_type": "BatchFactorExperiment",
+  "csv_comment": "time based, weekly retrained",
+  "save_output": true,
+  "json_file_name": "json/batchfactor-30M_lastfm_artist-recoded-5item",
+  "parameters": {
+    "period_length": 604800,
+    "learning_rate": 0.01,
+    "number_of_iterations": 30,
+    "negative_rate": 30
+  }
+}

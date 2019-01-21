@@ -1,0 +1,16 @@
+{
+  "experiment_type": "AsymmetricFactorExperiment",
+  "save_output": true,
+  "path": {
+    "data_dir": "data",
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "30M_lastfm/artist"
+  },
+  "parameters": {
+    "learning_rate": 0.15
+  },
+  "json_file_name": "json/amf-lrate-30M_lastfm_artist-recoded-5item",
+  "json_comment": "",
+  "csv_comment": "comment"
+}

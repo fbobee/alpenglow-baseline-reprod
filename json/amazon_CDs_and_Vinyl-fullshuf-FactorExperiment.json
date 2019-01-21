@@ -1,0 +1,16 @@
+{
+  "csv_comment": "comment",
+  "json_comment": "",
+  "json_file_name": "json/factor-lrate-amazon_CDs_and_Vinyl-shuffled-5item",
+  "experiment_type": "FactorExperiment",
+  "save_output": true,
+  "parameters": {
+    "learning_rate": 0.4
+  },
+  "path": {
+    "output_dir": "results",
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  }
+}

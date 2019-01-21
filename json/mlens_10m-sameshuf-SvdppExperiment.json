@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "learning_rate": 0.1
+  },
+  "json_file_name": "json/svdpp-lrate-mlens_10m-recoded-5item",
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "mlens_10m"
+  },
+  "save_output": true,
+  "experiment_type": "SvdppExperiment",
+  "json_comment": "",
+  "csv_comment": "comment"
+}

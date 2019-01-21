@@ -1,0 +1,16 @@
+{
+  "json_file_name": "json/poptf-30M_lastfm_track-shuffled-5item",
+  "save_output": true,
+  "csv_comment": "comment",
+  "json_comment": "",
+  "parameters": {
+    "tau": 25920000
+  },
+  "experiment_type": "PopularityTimeframeExperiment",
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "30M_lastfm/track",
+    "output_dir": "results",
+    "data_dir": "data"
+  }
+}

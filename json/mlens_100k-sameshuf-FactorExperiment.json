@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "learning_rate": 0.2
+  },
+  "json_file_name": "json/factor-lrate-mlens_100k-recoded-5item",
+  "csv_comment": "comment",
+  "json_comment": "",
+  "experiment_type": "FactorExperiment",
+  "path": {
+    "output_dir": "results",
+    "dataset": "mlens_100k",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "save_output": true
+}

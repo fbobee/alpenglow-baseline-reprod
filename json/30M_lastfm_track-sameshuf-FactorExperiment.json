@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "csv_comment": "comment",
+  "json_comment": "",
+  "experiment_type": "FactorExperiment",
+  "json_file_name": "json/factor-lrate-30M_lastfm_track-recoded-5item",
+  "path": {
+    "data_dir": "data",
+    "output_dir": "results",
+    "dataset": "30M_lastfm/track",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded"
+  },
+  "save_output": true
+}

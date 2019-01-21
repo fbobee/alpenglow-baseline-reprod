@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "gamma": 0.99
+  },
+  "json_file_name": "json/amf-gamma-mlens_1m-shuffled-5item",
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_1m"
+  },
+  "save_output": true,
+  "experiment_type": "AsymmetricFactorExperiment",
+  "json_comment": "",
+  "csv_comment": "comment"
+}

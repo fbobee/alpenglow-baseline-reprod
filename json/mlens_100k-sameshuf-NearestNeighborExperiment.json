@@ -1,0 +1,17 @@
+{
+  "json_file_name": "json/nn-mlens_100k-recoded-5item",
+  "json_comment": "",
+  "parameters": {
+    "gamma_threshold": 0.001,
+    "gamma": 0.09
+  },
+  "save_output": true,
+  "csv_comment": "default",
+  "experiment_type": "NearestNeighborExperiment",
+  "path": {
+    "dataset": "mlens_100k",
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  }
+}

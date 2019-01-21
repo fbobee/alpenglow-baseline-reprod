@@ -1,0 +1,14 @@
+{
+  "json_comment": "",
+  "parameters": {},
+  "json_file_name": "json/trans-30M_lastfm_track-recoded-5item",
+  "csv_comment": "comment",
+  "save_output": true,
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "output_dir": "results",
+    "dataset": "30M_lastfm/track"
+  },
+  "experiment_type": "TransitionProbabilityExperiment"
+}

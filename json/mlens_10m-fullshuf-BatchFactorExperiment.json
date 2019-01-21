@@ -1,0 +1,19 @@
+{
+  "experiment_type": "BatchFactorExperiment",
+  "json_file_name": "json/batchfactor-mlens_10m-shuffled-5item",
+  "parameters": {
+    "period_length": 604800,
+    "number_of_iterations": 10,
+    "learning_rate": 0.01,
+    "negative_rate": 30
+  },
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_10m"
+  },
+  "save_output": true,
+  "json_comment": "",
+  "csv_comment": "time based, monthly retrained"
+}

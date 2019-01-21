@@ -1,0 +1,17 @@
+{
+  "csv_comment": "comment",
+  "json_comment": "",
+  "parameters": {
+    "norm_type": "constant",
+    "learning_rate": 0.3
+  },
+  "experiment_type": "SvdppExperiment",
+  "save_output": true,
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Electronics",
+    "data_dir": "data"
+  },
+  "json_file_name": "json/svdpp-shuffled-lrate-amazon_Electronics-shuffled-5item"
+}

@@ -1,0 +1,17 @@
+{
+  "json_comment": "",
+  "csv_comment": "time based recomputing as sample based is not implemented",
+  "path": {
+    "output_dir": "results",
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "save_output": true,
+  "json_file_name": "json/nn-fixed-amazon_CDs_and_Vinyl-recoded-5item",
+  "experiment_type": "NearestNeighborExperiment",
+  "parameters": {
+    "gamma": 0.09,
+    "gamma_threshold": 0.001
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "csv_comment": "sample based",
+  "parameters": {
+    "number_of_iterations": 30,
+    "negative_rate": 30,
+    "learning_rate": 0.08,
+    "period_length": 100000,
+    "period_mode": "samplenum"
+  },
+  "json_file_name": "json/batchfactor-amazon_Electronics-shuffled-5item",
+  "experiment_type": "BatchFactorExperiment",
+  "save_output": true,
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Electronics",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "json_comment": ""
+}

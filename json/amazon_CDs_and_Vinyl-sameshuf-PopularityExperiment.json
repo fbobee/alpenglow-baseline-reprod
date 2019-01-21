@@ -1,0 +1,14 @@
+{
+  "json_file_name": "json/pop-default-amazon_CDs_and_Vinyl-recoded-5item",
+  "path": {
+    "data_dir": "data",
+    "output_dir": "results",
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded"
+  },
+  "experiment_type": "PopularityExperiment",
+  "parameters": {},
+  "json_comment": "",
+  "save_output": true,
+  "csv_comment": "comment"
+}

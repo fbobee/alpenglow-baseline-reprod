@@ -1,0 +1,17 @@
+{
+  "save_output": true,
+  "experiment_type": "NearestNeighborExperiment",
+  "json_file_name": "json/nn-30M_lastfm_artist-recoded-5item",
+  "path": {
+    "data_dir": "data",
+    "dataset": "30M_lastfm/artist",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results"
+  },
+  "csv_comment": "default",
+  "json_comment": "",
+  "parameters": {
+    "gamma_threshold": 0.001,
+    "gamma": 0.09
+  }
+}

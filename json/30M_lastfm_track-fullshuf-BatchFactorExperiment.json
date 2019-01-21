@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "negative_rate": 30,
+    "period_length": 604800,
+    "learning_rate": 0.03,
+    "number_of_iterations": 30
+  },
+  "csv_comment": "time based, weekly retrained",
+  "json_comment": "",
+  "json_file_name": "json/batchfactor-30M_lastfm_track-shuffled-5item",
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "30M_lastfm/track"
+  },
+  "save_output": true,
+  "experiment_type": "BatchFactorExperiment"
+}

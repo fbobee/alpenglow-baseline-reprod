@@ -1,0 +1,14 @@
+{
+  "json_comment": "",
+  "experiment_type": "PopularityExperiment",
+  "csv_comment": "comment",
+  "path": {
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_dir": "data",
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  },
+  "json_file_name": "json/pop-default-amazon_CDs_and_Vinyl-shuffled-5item",
+  "save_output": true,
+  "parameters": {}
+}

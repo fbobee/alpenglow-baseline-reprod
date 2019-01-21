@@ -1,0 +1,16 @@
+{
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_100k",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "experiment_type": "AsymmetricFactorExperiment",
+  "json_file_name": "json/amf-lrate-mlens_100k-shuffled-5item",
+  "parameters": {
+    "learning_rate": 0.2
+  },
+  "save_output": true,
+  "csv_comment": "comment",
+  "json_comment": ""
+}

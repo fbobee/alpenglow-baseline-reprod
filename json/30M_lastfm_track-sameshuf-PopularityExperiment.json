@@ -1,0 +1,14 @@
+{
+  "experiment_type": "PopularityExperiment",
+  "json_file_name": "json/pop-default-30M_lastfm_track-recoded-5item",
+  "save_output": true,
+  "parameters": {},
+  "csv_comment": "comment",
+  "json_comment": "",
+  "path": {
+    "dataset": "30M_lastfm/track",
+    "data_dir": "data",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results"
+  }
+}

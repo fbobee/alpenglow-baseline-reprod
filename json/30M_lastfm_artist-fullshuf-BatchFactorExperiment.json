@@ -1,0 +1,19 @@
+{
+  "parameters": {
+    "negative_rate": 30,
+    "number_of_iterations": 30,
+    "period_length": 604800,
+    "learning_rate": 0.03
+  },
+  "path": {
+    "dataset": "30M_lastfm/artist",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "csv_comment": "time based, weekly retrained",
+  "json_file_name": "json/batchfactor-30M_lastfm_artist-shuffled-5item",
+  "json_comment": "",
+  "save_output": true,
+  "experiment_type": "BatchFactorExperiment"
+}

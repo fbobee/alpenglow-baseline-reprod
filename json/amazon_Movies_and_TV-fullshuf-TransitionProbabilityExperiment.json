@@ -1,0 +1,16 @@
+{
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "amazon/Movies_and_TV"
+  },
+  "csv_comment": "comment",
+  "parameters": {
+    "mode": "symmetric"
+  },
+  "save_output": true,
+  "experiment_type": "TransitionProbabilityExperiment",
+  "json_file_name": "json/trans-amazon_Movies_and_TV-shuffled-5item",
+  "json_comment": ""
+}

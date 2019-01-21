@@ -1,0 +1,16 @@
+{
+  "experiment_type": "AsymmetricFactorExperiment",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "csv_comment": "comment",
+  "save_output": true,
+  "json_comment": "",
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "json_file_name": "json/amf-lrate-amazon_CDs_and_Vinyl-recoded-5item"
+}

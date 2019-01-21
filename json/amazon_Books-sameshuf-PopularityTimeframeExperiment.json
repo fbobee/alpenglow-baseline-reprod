@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "tau": 86400
+  },
+  "json_comment": "",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "amazon/Books"
+  },
+  "json_file_name": "json/poptf-amazon_Books-recoded-5item",
+  "csv_comment": "comment",
+  "experiment_type": "PopularityTimeframeExperiment",
+  "save_output": true
+}

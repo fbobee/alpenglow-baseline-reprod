@@ -1,0 +1,14 @@
+{
+  "json_comment": "",
+  "experiment_type": "TransitionProbabilityExperiment",
+  "path": {
+    "output_dir": "results",
+    "dataset": "amazon/Electronics",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "csv_comment": "comment",
+  "json_file_name": "json/trans-amazon_Electronics-recoded-5item",
+  "parameters": {},
+  "save_output": true
+}

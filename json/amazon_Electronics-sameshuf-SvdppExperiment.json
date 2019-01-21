@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "json_comment": "",
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "amazon/Electronics"
+  },
+  "json_file_name": "json/svdpp-lrate-amazon_Electronics-recoded-5item",
+  "save_output": true,
+  "experiment_type": "SvdppExperiment",
+  "csv_comment": "comment"
+}

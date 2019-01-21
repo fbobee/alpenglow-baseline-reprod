@@ -1,0 +1,17 @@
+{
+  "json_file_name": "json/svdpp-shuffled-negrate-mlens_10m-shuffled-5item",
+  "json_comment": "",
+  "experiment_type": "SvdppExperiment",
+  "path": {
+    "dataset": "mlens_10m",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "output_dir": "results"
+  },
+  "save_output": true,
+  "csv_comment": "comment",
+  "parameters": {
+    "norm_type": "constant",
+    "negative_rate": 30
+  }
+}

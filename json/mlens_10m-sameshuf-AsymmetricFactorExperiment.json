@@ -1,0 +1,16 @@
+{
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "dataset": "mlens_10m",
+    "data_dir": "data"
+  },
+  "csv_comment": "comment",
+  "save_output": true,
+  "parameters": {
+    "learning_rate": 0.07
+  },
+  "experiment_type": "AsymmetricFactorExperiment",
+  "json_file_name": "json/amf-lrate-mlens_10m-recoded-5item",
+  "json_comment": ""
+}

@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "learning_rate": 0.4
+  },
+  "json_comment": "",
+  "csv_comment": "comment",
+  "experiment_type": "FactorExperiment",
+  "json_file_name": "json/factor-lrate-amazon_CDs_and_Vinyl-recoded-5item",
+  "save_output": true,
+  "path": {
+    "dataset": "amazon/CDs_and_Vinyl",
+    "data_dir": "data",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results"
+  }
+}

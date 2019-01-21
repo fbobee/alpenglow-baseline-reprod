@@ -1,0 +1,16 @@
+{
+  "experiment_type": "PopularityTimeframeExperiment",
+  "parameters": {
+    "tau": 25920000
+  },
+  "json_comment": "",
+  "save_output": true,
+  "json_file_name": "json/poptf-amazon_Books-shuffled-5item",
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "amazon/Books",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  },
+  "csv_comment": "comment"
+}

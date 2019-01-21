@@ -1,0 +1,14 @@
+{
+  "path": {
+    "dataset": "30M_lastfm/artist",
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "csv_comment": "comment",
+  "json_comment": "",
+  "json_file_name": "json/pop-default-30M_lastfm_artist-shuffled-5item",
+  "experiment_type": "PopularityExperiment",
+  "parameters": {},
+  "save_output": true
+}

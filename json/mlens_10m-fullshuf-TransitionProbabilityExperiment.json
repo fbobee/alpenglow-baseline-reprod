@@ -1,0 +1,16 @@
+{
+  "experiment_type": "TransitionProbabilityExperiment",
+  "json_comment": "",
+  "csv_comment": "comment",
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_10m",
+    "data_dir": "data"
+  },
+  "parameters": {
+    "mode": "symmetric"
+  },
+  "json_file_name": "json/trans-mlens_10m-shuffled-5item",
+  "save_output": true
+}

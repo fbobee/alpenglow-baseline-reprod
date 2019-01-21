@@ -1,0 +1,16 @@
+{
+  "csv_comment": "comment",
+  "json_comment": "",
+  "save_output": true,
+  "path": {
+    "data_dir": "data",
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "30M_lastfm/track"
+  },
+  "json_file_name": "json/svdpp-lrate-30M_lastfm_track-recoded-5item",
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "experiment_type": "SvdppExperiment"
+}

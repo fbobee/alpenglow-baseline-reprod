@@ -1,0 +1,14 @@
+{
+  "csv_comment": "comment",
+  "parameters": {},
+  "json_file_name": "json/pop-default-amazon_Electronics-shuffled-5item",
+  "json_comment": "",
+  "path": {
+    "dataset": "amazon/Electronics",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data"
+  },
+  "save_output": true,
+  "experiment_type": "PopularityExperiment"
+}

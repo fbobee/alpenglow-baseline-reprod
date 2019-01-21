@@ -1,0 +1,16 @@
+{
+  "path": {
+    "data_dir": "data",
+    "dataset": "30M_lastfm/artist",
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  },
+  "experiment_type": "FactorExperiment",
+  "save_output": true,
+  "json_file_name": "json/factor-lrate-30M_lastfm_artist-shuffled-5item",
+  "parameters": {
+    "learning_rate": 0.2
+  },
+  "json_comment": "",
+  "csv_comment": "comment"
+}

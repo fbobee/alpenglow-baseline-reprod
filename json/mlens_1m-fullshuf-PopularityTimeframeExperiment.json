@@ -1,0 +1,16 @@
+{
+  "csv_comment": "comment",
+  "parameters": {
+    "tau": 25920000
+  },
+  "json_file_name": "json/poptf-mlens_1m-shuffled-5item",
+  "save_output": true,
+  "json_comment": "",
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "mlens_1m",
+    "output_dir": "results"
+  },
+  "experiment_type": "PopularityTimeframeExperiment"
+}

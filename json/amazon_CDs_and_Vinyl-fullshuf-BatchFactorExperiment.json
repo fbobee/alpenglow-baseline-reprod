@@ -1,0 +1,20 @@
+{
+  "csv_comment": "sample based",
+  "parameters": {
+    "learning_rate": 0.08,
+    "number_of_iterations": 30,
+    "negative_rate": 30,
+    "period_length": 100000,
+    "period_mode": "samplenum"
+  },
+  "experiment_type": "BatchFactorExperiment",
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/CDs_and_Vinyl"
+  },
+  "json_comment": "",
+  "json_file_name": "json/batchfactor-amazon_CDs_and_Vinyl-shuffled-5item",
+  "save_output": true
+}

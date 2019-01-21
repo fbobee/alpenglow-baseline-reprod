@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "tau": 25920000
+  },
+  "json_comment": "",
+  "csv_comment": "comment",
+  "json_file_name": "json/poptf-amazon_CDs_and_Vinyl-shuffled-5item",
+  "save_output": true,
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "amazon/CDs_and_Vinyl"
+  },
+  "experiment_type": "PopularityTimeframeExperiment"
+}

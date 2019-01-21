@@ -1,0 +1,20 @@
+{
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Movies_and_TV",
+    "data_dir": "data"
+  },
+  "experiment_type": "BatchFactorExperiment",
+  "csv_comment": "sample based",
+  "json_comment": "",
+  "save_output": true,
+  "json_file_name": "json/batchfactor-amazon_Movies_and_TV-recoded-5item",
+  "parameters": {
+    "negative_rate": 30,
+    "period_length": 100000,
+    "number_of_iterations": 10,
+    "period_mode": "samplenum",
+    "learning_rate": 0.03
+  }
+}

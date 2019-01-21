@@ -1,0 +1,16 @@
+{
+  "json_comment": "",
+  "csv_comment": "comment",
+  "parameters": {
+    "tau": 604800
+  },
+  "json_file_name": "json/poptf-amazon_Electronics-recoded-5item",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "amazon/Electronics"
+  },
+  "save_output": true,
+  "experiment_type": "PopularityTimeframeExperiment"
+}

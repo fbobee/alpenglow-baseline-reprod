@@ -1,0 +1,14 @@
+{
+  "experiment_type": "PopularityExperiment",
+  "save_output": true,
+  "json_file_name": "json/pop-default-mlens_100k-recoded-5item",
+  "parameters": {},
+  "csv_comment": "comment",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "dataset": "mlens_100k",
+    "data_dir": "data"
+  },
+  "json_comment": ""
+}

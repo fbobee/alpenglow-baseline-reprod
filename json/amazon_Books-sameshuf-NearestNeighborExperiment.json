@@ -1,0 +1,17 @@
+{
+  "path": {
+    "dataset": "amazon/Books",
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "parameters": {
+    "gamma": 0.09,
+    "gamma_threshold": 0.001
+  },
+  "save_output": true,
+  "experiment_type": "NearestNeighborExperiment",
+  "json_file_name": "json/nn-fixed-amazon_Books-recoded-5item",
+  "csv_comment": "time based recomputing as sample based is not implemented",
+  "json_comment": ""
+}

@@ -1,0 +1,16 @@
+{
+  "csv_comment": "comment",
+  "json_file_name": "json/svdpp-lrate-amazon_Movies_and_TV-recoded-5item",
+  "experiment_type": "SvdppExperiment",
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "json_comment": "",
+  "path": {
+    "data_dir": "data",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "dataset": "amazon/Movies_and_TV"
+  },
+  "save_output": true
+}

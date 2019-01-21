@@ -1,0 +1,14 @@
+{
+  "parameters": {},
+  "csv_comment": "comment",
+  "save_output": true,
+  "json_comment": "",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Books",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "json_file_name": "json/trans-amazon_Books-recoded-5item",
+  "experiment_type": "TransitionProbabilityExperiment"
+}

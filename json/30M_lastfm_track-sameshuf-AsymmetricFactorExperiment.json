@@ -1,0 +1,16 @@
+{
+  "csv_comment": "comment",
+  "path": {
+    "dataset": "30M_lastfm/track",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "experiment_type": "AsymmetricFactorExperiment",
+  "json_file_name": "json/amf-lrate-30M_lastfm_track-recoded-5item",
+  "save_output": true,
+  "json_comment": "",
+  "parameters": {
+    "learning_rate": 0.2
+  }
+}

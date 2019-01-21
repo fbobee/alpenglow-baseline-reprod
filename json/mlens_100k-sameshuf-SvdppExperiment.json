@@ -1,0 +1,16 @@
+{
+  "save_output": true,
+  "json_comment": "",
+  "experiment_type": "SvdppExperiment",
+  "json_file_name": "json/svdpp-lrate-mlens_100k-recoded-5item",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_100k",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "csv_comment": "comment"
+}

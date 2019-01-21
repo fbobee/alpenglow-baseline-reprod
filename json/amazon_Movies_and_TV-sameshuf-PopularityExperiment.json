@@ -1,0 +1,14 @@
+{
+  "experiment_type": "PopularityExperiment",
+  "parameters": {},
+  "save_output": true,
+  "json_file_name": "json/pop-default-amazon_Movies_and_TV-recoded-5item",
+  "csv_comment": "comment",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results",
+    "data_dir": "data",
+    "dataset": "amazon/Movies_and_TV"
+  },
+  "json_comment": ""
+}

@@ -1,0 +1,16 @@
+{
+  "json_comment": "",
+  "path": {
+    "dataset": "amazon/Movies_and_TV",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "output_dir": "results"
+  },
+  "json_file_name": "json/poptf-amazon_Movies_and_TV-shuffled-5item",
+  "csv_comment": "comment",
+  "parameters": {
+    "tau": 25920000
+  },
+  "save_output": true,
+  "experiment_type": "PopularityTimeframeExperiment"
+}

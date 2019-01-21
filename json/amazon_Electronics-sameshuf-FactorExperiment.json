@@ -1,0 +1,16 @@
+{
+  "save_output": true,
+  "csv_comment": "comment",
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "json_file_name": "json/factor-lrate-amazon_Electronics-recoded-5item",
+  "experiment_type": "FactorExperiment",
+  "path": {
+    "output_dir": "results",
+    "dataset": "amazon/Electronics",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "json_comment": ""
+}

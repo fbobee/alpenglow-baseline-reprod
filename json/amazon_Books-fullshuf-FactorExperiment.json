@@ -1,0 +1,16 @@
+{
+  "save_output": true,
+  "path": {
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/Books",
+    "output_dir": "results"
+  },
+  "json_file_name": "json/factor-lrate-amazon_Books-shuffled-5item",
+  "json_comment": "",
+  "parameters": {
+    "learning_rate": 0.3
+  },
+  "csv_comment": "comment",
+  "experiment_type": "FactorExperiment"
+}

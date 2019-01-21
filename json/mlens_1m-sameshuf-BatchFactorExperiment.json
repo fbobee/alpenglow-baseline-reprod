@@ -1,0 +1,19 @@
+{
+  "json_comment": "",
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_1m"
+  },
+  "parameters": {
+    "period_length": 604800,
+    "learning_rate": 0.01,
+    "number_of_iterations": 3,
+    "negative_rate": 30
+  },
+  "experiment_type": "BatchFactorExperiment",
+  "save_output": true,
+  "json_file_name": "json/batchfactor-mlens_1m-recoded-5item",
+  "csv_comment": "time based, weekly retrained"
+}

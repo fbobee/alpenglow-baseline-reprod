@@ -1,0 +1,20 @@
+{
+  "experiment_type": "BatchFactorExperiment",
+  "csv_comment": "sample based",
+  "path": {
+    "data_dir": "data",
+    "dataset": "amazon/Books",
+    "output_dir": "results",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded"
+  },
+  "parameters": {
+    "negative_rate": 30,
+    "period_length": 100000,
+    "period_mode": "samplenum",
+    "number_of_iterations": 10,
+    "learning_rate": 0.03
+  },
+  "save_output": true,
+  "json_file_name": "json/batchfactor-amazon_Books-recoded-5item",
+  "json_comment": ""
+}

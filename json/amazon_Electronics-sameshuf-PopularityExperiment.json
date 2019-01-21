@@ -1,0 +1,14 @@
+{
+  "parameters": {},
+  "csv_comment": "comment",
+  "path": {
+    "data_dir": "data",
+    "dataset": "amazon/Electronics",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "output_dir": "results"
+  },
+  "experiment_type": "PopularityExperiment",
+  "json_file_name": "json/pop-default-amazon_Electronics-recoded-5item",
+  "json_comment": "",
+  "save_output": true
+}

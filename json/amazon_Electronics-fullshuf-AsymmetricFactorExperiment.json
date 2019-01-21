@@ -1,0 +1,16 @@
+{
+  "experiment_type": "AsymmetricFactorExperiment",
+  "json_file_name": "json/amf-lrate-amazon_Electronics-shuffled-5item",
+  "csv_comment": "comment",
+  "json_comment": "",
+  "path": {
+    "output_dir": "results",
+    "dataset": "amazon/Electronics",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data"
+  },
+  "save_output": true,
+  "parameters": {
+    "learning_rate": 0.15
+  }
+}

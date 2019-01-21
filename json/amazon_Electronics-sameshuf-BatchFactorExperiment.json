@@ -1,0 +1,20 @@
+{
+  "experiment_type": "BatchFactorExperiment",
+  "save_output": true,
+  "csv_comment": "sample based",
+  "parameters": {
+    "period_length": 100000,
+    "negative_rate": 30,
+    "number_of_iterations": 30,
+    "period_mode": "samplenum",
+    "learning_rate": 0.08
+  },
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "output_dir": "results",
+    "dataset": "amazon/Electronics"
+  },
+  "json_file_name": "json/batchfactor-amazon_Electronics-recoded-5item",
+  "json_comment": ""
+}

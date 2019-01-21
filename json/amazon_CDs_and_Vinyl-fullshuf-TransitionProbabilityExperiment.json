@@ -1,0 +1,16 @@
+{
+  "json_comment": "",
+  "save_output": true,
+  "json_file_name": "json/trans-amazon_CDs_and_Vinyl-shuffled-5item",
+  "parameters": {
+    "mode": "symmetric"
+  },
+  "csv_comment": "comment",
+  "experiment_type": "TransitionProbabilityExperiment",
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "dataset": "amazon/CDs_and_Vinyl"
+  }
+}

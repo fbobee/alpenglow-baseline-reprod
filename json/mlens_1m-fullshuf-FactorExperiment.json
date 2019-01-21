@@ -1,0 +1,16 @@
+{
+  "experiment_type": "FactorExperiment",
+  "parameters": {
+    "learning_rate": 0.15
+  },
+  "json_file_name": "json/factor-lrate-mlens_1m-shuffled-5item",
+  "csv_comment": "comment",
+  "save_output": true,
+  "path": {
+    "output_dir": "results",
+    "dataset": "mlens_1m",
+    "data_dir": "data",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  },
+  "json_comment": ""
+}

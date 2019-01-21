@@ -1,0 +1,30 @@
+#!/bin/bash
+set -e
+
+if [ $# -lt 3 ]
+then
+  echo "Usage:"
+  echo "common_plot dataset variant model1 [model2 ... modelN]"
+  echo "Example:"
+  echo "common_plot mlens_100k sameshuf PopularityExperiment FactorExperiment TransitionProbabilityExperiment"
+  echo "Available datasets: 30M_lastfm/artist 30M_lastfm/track amazon/Books amazon/Electronics amazon/CDs_and_Vinyl amazon/Movies_and_TV mlens_100k mlens_10m mlens_1m"
+  echo "Available variants: sameshuf (samples having the same timestamp are shuffled), fullshuf (samples are shuffled)"
+  echo "Available models: AsymmetricFactorExperiment NearestNeighborExperiment PopularityTimeframeExperiment TransitionProbabilityExperiment BatchFactorExperiment FactorExperiment PopularityExperiment SvdppExperiment"
+  exit 1
+fi
+
+dataset=$1
+dataset_name=$(echo $dataset | tr "/" "_")
+variant=$2
+models="${@:3}"
+
+output_files=""
+make --dry-run test #TODO remove dry-run
+for model in $models
+do
+  make --dry-run $dataset_name-$variant-$model #TODO remove dry-run
+  output_file=$(find results/$dataset/scrobbles-${variant}-first-5_item_filter-recoded/$model -name "output" | head -1) #TODO find the best result if there are more
+  output_files="$output_files $model:$output_file"
+done
+
+python scripts/common_plot.py $dataset $variant $output_files

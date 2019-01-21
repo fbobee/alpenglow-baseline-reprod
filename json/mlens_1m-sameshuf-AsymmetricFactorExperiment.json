@@ -1,0 +1,16 @@
+{
+  "save_output": true,
+  "parameters": {
+    "learning_rate": 0.1
+  },
+  "json_comment": "",
+  "csv_comment": "comment",
+  "json_file_name": "json/amf-lrate-mlens_1m-recoded-5item",
+  "experiment_type": "AsymmetricFactorExperiment",
+  "path": {
+    "output_dir": "results",
+    "data_dir": "data",
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "dataset": "mlens_1m"
+  }
+}

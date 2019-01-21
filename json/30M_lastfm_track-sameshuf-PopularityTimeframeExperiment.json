@@ -1,0 +1,16 @@
+{
+  "json_comment": "",
+  "experiment_type": "PopularityTimeframeExperiment",
+  "parameters": {
+    "tau": 604800
+  },
+  "json_file_name": "json/poptf-30M_lastfm_track-recoded-5item",
+  "csv_comment": "comment",
+  "path": {
+    "data_variant": "scrobbles-sameshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "30M_lastfm/track",
+    "output_dir": "results"
+  },
+  "save_output": true
+}

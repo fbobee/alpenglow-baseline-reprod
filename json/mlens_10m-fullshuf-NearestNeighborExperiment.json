@@ -1,0 +1,18 @@
+{
+  "experiment_type": "NearestNeighborExperiment",
+  "csv_comment": "time based, monthly retrained",
+  "save_output": true,
+  "json_comment": "",
+  "path": {
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "mlens_10m"
+  },
+  "json_file_name": "json/nn-mlens_10m-shuffled-5item",
+  "parameters": {
+    "gamma": 0.09,
+    "compute_similarity_period": 604800,
+    "gamma_threshold": 0.001
+  }
+}

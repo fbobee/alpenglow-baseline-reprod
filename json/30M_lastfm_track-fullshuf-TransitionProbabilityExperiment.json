@@ -1,0 +1,16 @@
+{
+  "experiment_type": "TransitionProbabilityExperiment",
+  "json_comment": "",
+  "save_output": true,
+  "json_file_name": "json/trans-30M_lastfm_track-shuffled-5item",
+  "csv_comment": "comment",
+  "parameters": {
+    "mode": "symmetric"
+  },
+  "path": {
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded",
+    "data_dir": "data",
+    "dataset": "30M_lastfm/track",
+    "output_dir": "results"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "path": {
+    "dataset": "amazon/Books",
+    "data_dir": "data",
+    "output_dir": "results",
+    "data_variant": "scrobbles-fullshuf-first-5_item_filter-recoded"
+  },
+  "experiment_type": "NearestNeighborExperiment",
+  "save_output": true,
+  "json_comment": "",
+  "csv_comment": "time based recomputing as sample based is not implemented",
+  "parameters": {
+    "gamma_threshold": 0.001,
+    "gamma": 0.09
+  },
+  "json_file_name": "json/nn-fixed-amazon_Books-shuffled-5item"
+}
