@@ -55,6 +55,7 @@ experiment_base = globals()[param_data["experiment_type"]](
 evaluators = {"dcg":"DcgScore", "rr":"RrScore"}
 
 
+exit_code = 0
 for parameter_combination in parameter_combinations :
   parametered_experiment = copy.deepcopy(experiment_base)
   out_dir=output_root_dir+"experiment"
@@ -65,8 +66,21 @@ for parameter_combination in parameter_combinations :
       out_dir += "-" + key + "_" + str(parameter_combination[key])
   if not os.path.exists(out_dir) :
     os.makedirs(out_dir)
-  elif not os.path.isdir(out_dir) or os.listdir(out_dir) :
-    print("Output dir '"+out_dir+"' exists, but is not an empty directory, skipping the parameter combination.")
+  elif not os.path.isdir(out_dir) :
+    print("File '"+out_dir+"' exists, but is not an empty directory, skipping the parameter combination.")
+    exit_code = -1
+  elif os.listdir(out_dir) :
+    if os.path.exists(out_dir+"/running") :
+      if os.path.exists(out_dir+"/pid") :
+        with open(out_dir+"/pid") as f :
+          pid = f.readline().strip()
+      else :
+        pid="unknown"
+      print("Output dir '"+out_dir+"' seems to be the output directory of a running experiment process having PID "+pid+".")
+      print("If the original experiment process was killed, please remove the output directory (rm -r "+out_dir+") and run this script again.")
+    else :
+      print("Directory '"+out_dir+"' exists, but is not an empty directory, skipping the parameter combination to avoid overwiting existing results. Remove the files before rerunning an experiment.")
+    exit_code = -1
     continue
   log_file = open(out_dir+"/log", "a")
   log_file.write(str(datetime.datetime.now())+"\n")
@@ -119,3 +133,4 @@ for parameter_combination in parameter_combinations :
     plt.close()
   my_results.to_csv(out_dir+"/output", sep=" ", float_format='%.5f')
   os.remove(out_dir+"/running")
+exit(exit_code)
