@@ -10,7 +10,7 @@ Use the `common_plot` shell script to create a common cumulative DCG plot of the
 The scripts assume that you have an existing [Alpenglow](https://github.com/rpalovics/Alpenglow) installation. To test availability of Alpenglow, run `make test`.
 
 Available datasets:
-* [MovieLens](https://grouplens.org/datasets/movielens/) 100k, 1M, 100M
+* [MovieLens](https://grouplens.org/datasets/movielens/) 100k, 1M, 10M
 * [Amazon review data](http://jmcauley.ucsd.edu/data/amazon/) Books, Movies\_and\_TV, CDs\_and\_Vinyl, Electronics
 * [30M Last.fm](http://recsys.deib.polimi.it/30music-dataset/), where items can be tracks or artists.
 
